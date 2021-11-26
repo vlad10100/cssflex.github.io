@@ -1,0 +1,160 @@
+
+body{
+	background-color: #081c15;
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 0px;
+}
+.first-page{
+	background-color: #1a1a1a;
+	height: 100vh;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+}
+
+.navigation-bar{
+	display: flex;
+	padding: 20px 100px 0px 100px;
+}
+
+.navigation-bar img{
+	height: 40px;
+	margin-right: auto;
+}
+
+.navigation-bar a{
+	color: white;
+	padding: 10px 10px 10px 10px;
+}
+
+.navigation-bar a:hover{
+	color: yellow;
+	font-weight: bolder;
+}
+
+.first-content{
+	display: flex;
+	color: whitesmoke;
+	margin-top: 30px;
+}
+
+.left{
+	flex: .8;
+	padding-top: 100px;
+	margin-left: 200px;
+	font-size: 25px;
+	text-align: left;
+}
+.left p{
+	font-size: 20px;
+}
+.left button{
+	display: flex;
+	background-color: rgb(255, 208, 0);
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px 10px 20px
+}
+.left button:hover{
+	font-weight: bolder;
+}
+
+.rigth{
+	flex: 1;
+}
+
+
+
+
+
+
+
+
+
+.second-page{
+	background-color: whitesmoke;
+	height: 70vh;
+}
+
+
+.wrap img{
+	height: 200px;
+	width: 200px;
+	border: solid black;
+	border-radius: 15px;
+	object-fit: cover;
+	margin: 20px 30px 0px 30px;
+}
+.wrap{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-weight: bolder;
+}
+
+
+
+.third-page{
+	background-color: #1a1a1a;
+	color: white;
+	height: 70vh;
+}
+.third-page p{
+	padding-top: 100px;
+	font-size: 30px;
+}
+.third-page p:nth-child(2){
+	font-weight: bolder;
+	color: rgb(255, 217, 0);
+	text-align: right;
+	padding-top: 0px;
+	padding-right: 10%;
+}	
+
+.forth-page{
+	background-color: #1a1a1a;
+}
+.updates{
+	margin: 0px 150px 50px 150px;
+	padding: 20px;
+	background: whitesmoke;
+	border-radius: 10px;
+	
+	display: flex;
+}
+.item button{
+	margin-left: 250px;
+	margin-top: 20px;
+	border: none;
+	background-color: rgb(255, 217, 0) ;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+}
+.item button:hover{
+	background-color: rgb(255, 187, 0);
+	border: solid black 2px;
+}
+
+.item p{
+	font-size: 15px;
+	font-weight: bolder;
+	text-align: left;
+	padding-left: 150px;
+}
+
+
+.item p:nth-child(2){
+	font-weight: normal;
+}
+
+
+.copyright{
+	background-color: #919191;
+	color: white;
+	
+}
+
+
